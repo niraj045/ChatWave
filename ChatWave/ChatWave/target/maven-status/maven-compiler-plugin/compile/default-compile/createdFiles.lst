@@ -1,0 +1,4 @@
+com\chatwave\websocket\ChatWebSocketHandler.class
+com\chatwave\websocket\WebSocketConfig.class
+com\chatwave\ChatWaveApplication.class
+com\chatwave\model\Message.class
