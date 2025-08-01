@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import ChatRoom from "./components/ChatRoom";
 import Login from "./components/Login";
 import Register from "./components/Register";
+import FlipkartOrder from "./components/FlipkartOrder";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Route path="/" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/chat" element={<ChatRoom />} />
+        <Route path="/order" element={<FlipkartOrder />} />
       </Routes>
     </Router>
   );
